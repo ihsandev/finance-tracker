@@ -9,10 +9,15 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      container: {
-        center: true,
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "3rem",
       },
+    },
+    extend: {
       fontFamily: {
         poppins: ["var(--font-poppins)"],
         salesforceSans: ["var(--font-salesforce-sans)"],
